@@ -1,0 +1,11 @@
+int length(Node *head)
+{
+	//Write your code here
+    int c = 0;
+    while(head!=NULL)
+    {
+        c++;
+        head=head->next;
+    }
+    return c;
+}
